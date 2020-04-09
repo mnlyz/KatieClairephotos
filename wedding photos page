@@ -1,8 +1,6 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta name="robots" content="noindex, nofollow">
-    </head>
-    <body>
-        <h2> 
-            <img src = "images/wedding.jpg">
+  <head>
+    <title>Title of the HTML page</title>
+  </head>
+</html>
