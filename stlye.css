@@ -1,3 +1,10 @@
 body {
     background-color: rgb(177, 255, 234)
 }
+header { 
+    color: white;
+    background-color: rgb(0, 53, 48);
+    border-bottom: 1px solid;
+    position: fixed;
+    width: 100%;    
+}
