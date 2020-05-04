@@ -2,12 +2,12 @@
 /*mystylesheet*/
 body {
     color: rbg(0,53,48);
-    background-color: rgb(215, 251, 241)  
+    background-color: rgb(88, 115, 130)  
 }
 
 header { 
-    background-color: rgb(0, 53, 48);
-    border-bottom: 1px solid;
+    background-color: rgb(206, 126, 106);
+    border-bottom: 2px dashed;
     position: relative;
     margin: auto;
     width: 100%; 
@@ -18,14 +18,26 @@ header {
     text-align: center;
 }
 
-.title {
-    color: black;
+.titleleft {
+    color: rgb(206, 126, 106);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-style: italic;
-    text-align: center;
+    text-align: left;
     margin-bottom: 20;
     margin-top: 20;
-    display: block;
+    
+    position: relative;
+}
+
+.titleright{
+    color: beige;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+    text-align: right;
+    margin-bottom: 20;
+    margin-top: 20;
+    
+    position: relative;
 }
 
 .header {
@@ -33,6 +45,24 @@ header {
     font-family: cursive;
     font-style: bold;
     text-align: center;
+}
+
+.headerright{
+    color: beige;
+    font-family: cursive;
+    text-align: right;
+    display: block;
+    float: left;
+    position: relative;
+}
+
+.headerleft {
+    color: rgb(206, 126, 106);
+    font-family: cursive;
+    text-align: left;
+    display: block;
+    float: right;
+    position: relative;
 }
 
 .contactheader{
@@ -43,14 +73,26 @@ header {
 }
 
 .photoleft{
+    position: relative;
+    border-style: dashed;
+    border-color: rgb(206, 126, 106);
+    display: block;
+    margin: 50px;
     
 }
 
 .photoright{
+   position: relative;
+   border-style: dashed;
+   border-color: beige;
+   margin: 50px;
    
-  
+   
 }
 
 .footer{
     clear:both;
-}
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    position: relative;
+}   
