@@ -11,18 +11,28 @@ header {
     position: relative;
     margin: auto;
     width: 100%; 
+    
 }
+
+@font-face {
+    font-family: 'Space Mono';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Space Mono'), local('SpaceMono-Regular'), url(https://fonts.gstatic.com/s/spacemono/v1/adVweg3BJhE6r8jYmXseHQzyDMXhdD8sAj6OAJTFsBI.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+  }
+ 
 .info {
     color: beige;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Space Mono';
     text-align: center;
     display: block;
+    font-size: large;
 }
 
 .titleleft {
     color: rgb(206, 126, 106);
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-style: italic;
+    font-family: 'Helvetica';
     text-align: left;
     margin-bottom: 20;
     margin-top: 20;
@@ -31,7 +41,7 @@ header {
 
 .titleright{
     color: beige;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Helvetica';
     font-style: italic;
     text-align: right;
     margin-bottom: 20;
@@ -41,7 +51,7 @@ header {
 
 .title{
     color: beige;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Helvetica';
     font-style: italic;
     text-align: center;
     margin-bottom: 20;
@@ -50,11 +60,35 @@ header {
     display: block;
 }
 
+.ir{
+    color: beige;
+    font-family: 'Space Mono';
+    text-align: right;
+    margin-bottom: 20;
+    margin-top: 20;
+    display: block;
+    margin-left: 70%; 
+    font-size: 1em;
+
+}
+
+.il{
+    color: rgb(206, 126, 106);
+    font-family: 'Space Mono';
+    text-align: left;
+    margin-bottom: 20;
+    margin-top: 20;
+    margin-right: 70%;
+    display: block;
+    font-size: 1em;
+}
+
 .header {
     color: beige;
-    font-family: cursive;
+    font-family: cursive; 
     font-style: bold;
     text-align: center;
+    font-size: 3em;
 }
 
 .headerright{
@@ -62,6 +96,7 @@ header {
     font-family: cursive;
     text-align: right;
     display: block;
+    font-size: 3em;
 }
 
 .headerleft {
@@ -69,6 +104,7 @@ header {
     font-family: cursive;
     text-align: left;
     display: block;
+    font-size: 3em;
 }
 
 .contactheader{
@@ -100,6 +136,7 @@ header {
    margin-left: 32%;
 }
 
+
 footer{
     clear:both;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -107,6 +144,5 @@ footer{
     display: block;
     margin-left: 16%;
     margin-right:16%;
-   
 }   
 
