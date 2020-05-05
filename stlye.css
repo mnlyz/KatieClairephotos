@@ -7,7 +7,7 @@ body {
 
 header { 
     background-color: rgb(206, 126, 106);
-    border-bottom: 2px dashed;
+    border: 2px dashed;
     position: relative;
     margin: auto;
     width: 100%; 
@@ -16,6 +16,7 @@ header {
     color: beige;
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
+    display: block;
 }
 
 .titleleft {
@@ -25,7 +26,6 @@ header {
     text-align: left;
     margin-bottom: 20;
     margin-top: 20;
-    
     position: relative;
 }
 
@@ -36,8 +36,18 @@ header {
     text-align: right;
     margin-bottom: 20;
     margin-top: 20;
-    
+    display: block;
+}
+
+.title{
+    color: beige;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+    text-align: center;
+    margin-bottom: 20;
+    margin-top: 20;
     position: relative;
+    display: block;
 }
 
 .header {
@@ -52,8 +62,6 @@ header {
     font-family: cursive;
     text-align: right;
     display: block;
-    float: left;
-    position: relative;
 }
 
 .headerleft {
@@ -61,38 +69,44 @@ header {
     font-family: cursive;
     text-align: left;
     display: block;
-    float: right;
-    position: relative;
 }
 
 .contactheader{
-    color: rgb(41, 42, 43);
+    color: rgb(206, 126, 106);
     font-family: cursive;
     font-style: bold;
     text-align: center;
+    background: rgb(41,42,43);
+    border: dashed;
+    border-color: beige;
+
 }
 
 .photoleft{
-    position: relative;
     border-style: dashed;
     border-color: rgb(206, 126, 106);
     display: block;
-    margin: 50px;
-    
+    position:left;
+    margin-right: 32%;
 }
+    
 
 .photoright{
-   position: relative;
+   display:block;
    border-style: dashed;
    border-color: beige;
-   margin: 50px;
-   
-   
+   position: right;
+   display:block;
+   margin-left: 32%;
 }
 
-.footer{
+footer{
     clear:both;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-align: center;
-    position: relative;
+    display: block;
+    margin-left: 16%;
+    margin-right:16%;
+   
 }   
+
