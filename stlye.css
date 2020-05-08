@@ -60,6 +60,10 @@ header {
     display: block;
 }
 
+.title:hover{
+    
+}
+
 .ir{
     color: beige;
     font-family: 'Space Mono';
@@ -118,12 +122,14 @@ header {
     
 }
 
-#ctext{
-    color: rgb(206, 126, 106);
+#text{
+    color: rgb(242, 180, 165);
     font-family: cursive;
+    font-size: 4em;
     font-style: bold;
     text-align: center;
-    margin-top: 100px;
+    line-height: 200px;
+    text-decoration: underline overline rgb(206, 126, 106);
 }
 
 
