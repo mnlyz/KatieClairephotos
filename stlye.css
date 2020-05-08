@@ -107,16 +107,25 @@ header {
     font-size: 3em;
 }
 
-.contactheader{
+.contactheader {
+    border: dashed;
+    border-color: beige;
+    background: url(images/travelphoto.jpg);
+    background-clip: padding-box;
+    background-position: center;
+    height: 200px;
+    width: 100%;
+    
+}
+
+#ctext{
     color: rgb(206, 126, 106);
     font-family: cursive;
     font-style: bold;
     text-align: center;
-    background: rgb(41,42,43);
-    border: dashed;
-    border-color: beige;
-
+    margin-top: 100px;
 }
+
 
 .photoleft{
     border-style: dashed;
