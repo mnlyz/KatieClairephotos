@@ -75,7 +75,6 @@ header {
     display: block;
     margin-left: 70%; 
     font-size: 1em;
-
 }
 
 .il{
@@ -121,10 +120,8 @@ header {
     background-position: center;
     height: 200px;
     width: 100%;
-    
-}
+    position:relative;
 
-#text{
     color: rgb(242, 180, 165);
     font-family: cursive;
     font-size: 4em;
@@ -135,12 +132,17 @@ header {
 }
 
 
+
+
 .photoleft{
     border-style: dashed;
     border-color: rgb(206, 126, 106);
     display: block;
     position:left;
-    margin-right: 32%;
+    min-width:50%;
+    min-height:50%;
+    max-width: 75%;
+    max-height: 75%;
 }
     
 
@@ -149,8 +151,22 @@ header {
    border-style: dashed;
    border-color: beige;
    position: right;
-   display:block;
-   margin-left: 32%;
+   display:inline-block;
+   min-width:50%;
+   max-width: 50%;
+   max-width: 75%;
+   max-height: 75%;
+   
+   
+}
+
+.triangle-left {
+	width: 0;
+	height: 0;
+	border-top: 15px solid transparent;
+	border-right: 30px solid #555;
+    border-bottom: 15px solid transparent;
+    
 }
 
 
