@@ -61,8 +61,10 @@ header {
 }
 
 .title:hover{
-    
+    color: rgb(206,126,106);
+    transition-duration:1;
 }
+
 
 .ir{
     color: beige;
